@@ -8,18 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp2
+namespace Restoran
 {
-    public partial class UserControl1 : UserControl
+    public partial class UserControl4 : UserControl
     {
-        public UserControl1()
+        public UserControl4()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Form2 xxx = new Form2();
+            xxx.panelBtn.Top = xxx.button2.Top; 
         }
     }
 }

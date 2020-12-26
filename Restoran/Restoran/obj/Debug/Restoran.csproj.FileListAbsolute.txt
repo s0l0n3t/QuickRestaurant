@@ -8,6 +8,6 @@ D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.csproj.CoreCompileInp
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.exe
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.pdb
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.Form2.resources
-D:\restorant\Restoran\Restoran\Restoran\obj\Debug\WindowsFormsApp2.UserControl1.resources
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.UserControl2.resources
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.UserControl3.resources
+D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.UserControl4.resources

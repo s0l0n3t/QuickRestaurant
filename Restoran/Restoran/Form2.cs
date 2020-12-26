@@ -17,15 +17,18 @@ namespace Restoran
         public Form2()
         {
             InitializeComponent();
-            userControl11.BringToFront();
             timer2.Start();
             selectmenu = 1;
-
+            pnlKkampanya1.Show();
+            pnlKampanya2.Hide();
+            pnlMasaSec.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            userControl11.BringToFront();
+            pnlKkampanya1.Show();
+            pnlKampanya2.Hide();
+            pnlMasaSec.Hide();
             panelBtn.Top = button1.Top;
             selectmenu = 1;
             kampanyacontrol = 2;
@@ -33,6 +36,9 @@ namespace Restoran
 
         private void button2_Click(object sender, EventArgs e)
         {
+            pnlKkampanya1.Hide();
+            pnlKampanya2.Hide();
+            pnlMasaSec.Show();
             panelBtn.Top = button2.Top;
             selectmenu = 2;
         }
@@ -51,20 +57,62 @@ namespace Restoran
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            if(selectmenu == 1)
+            if(selectmenu==1)
             {
-                if (kampanyacontrol == 1)
-                    userControl11.BringToFront();
-                if (kampanyacontrol == 2)
-                    userControl21.BringToFront();
-                if (kampanyacontrol == 3)
-                {
-                    userControl31.BringToFront();
-                    kampanyacontrol = 0;
-                }
                 kampanyacontrol++;
+                if(kampanyacontrol%2==1)
+                {
+                    pnlKkampanya1.Hide();
+                    pnlKampanya2.Show();
+                }
+                else
+                {
+                    pnlKkampanya1.Show();
+                    pnlKampanya2.Hide();
+                }
 
             }
+            
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            // kampanya 1 button
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            // kampanya 2 button
+        }
+
+        private void pbMasa2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pbMasa6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pbMasa5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pbMasa4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pbMasa1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pbMasa3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
