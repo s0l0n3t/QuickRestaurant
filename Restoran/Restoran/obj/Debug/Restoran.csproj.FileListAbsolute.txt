@@ -1,7 +1,6 @@
 D:\restorant\Restoran\Restoran\Restoran\bin\Debug\Restoran.exe.config
 D:\restorant\Restoran\Restoran\Restoran\bin\Debug\Restoran.exe
 D:\restorant\Restoran\Restoran\Restoran\bin\Debug\Restoran.pdb
-D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.csprojAssemblyReference.cache
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.Form1.resources
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.Properties.Resources.resources
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.csproj.GenerateResource.cache
@@ -9,3 +8,4 @@ D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.csproj.CoreCompileInp
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.exe
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.pdb
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.Form2.resources
+D:\restorant\Restoran\Restoran\Restoran\obj\Debug\WindowsFormsApp2.UserControl1.resources

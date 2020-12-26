@@ -38,13 +38,14 @@ namespace Restoran
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panelBtn = new System.Windows.Forms.Panel();
+            this.userControl11 = new WindowsFormsApp2.UserControl1();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Gray;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel1.Controls.Add(this.panelBtn);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
@@ -54,7 +55,7 @@ namespace Restoran
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 545);
+            this.panel1.Size = new System.Drawing.Size(200, 452);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -63,13 +64,13 @@ namespace Restoran
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(200, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(751, 10);
+            this.panel2.Size = new System.Drawing.Size(661, 10);
             this.panel2.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(35, 394);
+            this.pictureBox1.Location = new System.Drawing.Point(35, 301);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(128, 139);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -148,11 +149,20 @@ namespace Restoran
             this.panelBtn.Size = new System.Drawing.Size(10, 50);
             this.panelBtn.TabIndex = 2;
             // 
+            // userControl11
+            // 
+            this.userControl11.BackColor = System.Drawing.Color.White;
+            this.userControl11.Location = new System.Drawing.Point(200, 10);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(662, 438);
+            this.userControl11.TabIndex = 2;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(951, 545);
+            this.ClientSize = new System.Drawing.Size(861, 452);
+            this.Controls.Add(this.userControl11);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -175,5 +185,6 @@ namespace Restoran
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
+        private WindowsFormsApp2.UserControl1 userControl11;
     }
 }
