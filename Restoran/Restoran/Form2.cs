@@ -10,20 +10,11 @@ using System.Windows.Forms;
 
 namespace Restoran
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
-            timer1.Start();
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            this.Hide();
-            timer1.Stop();
-            Form2 gecis = new Form2();
-            gecis.Show();
         }
     }
 }
