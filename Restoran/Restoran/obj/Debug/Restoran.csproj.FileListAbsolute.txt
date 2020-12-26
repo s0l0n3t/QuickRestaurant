@@ -12,3 +12,4 @@ D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.UserControl2.resource
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.UserControl3.resources
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.UserControl4.resources
 D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.Form3.resources
+D:\restorant\Restoran\Restoran\Restoran\obj\Debug\Restoran.csprojAssemblyReference.cache

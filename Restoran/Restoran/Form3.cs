@@ -22,5 +22,15 @@ namespace Restoran
             
             this.Size = new Size (818,500);
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
