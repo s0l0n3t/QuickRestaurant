@@ -14,7 +14,7 @@ namespace Restoran
     {
         int selectmenu = 0;
         int kampanyacontrol = 2;
-        int hangimasa = 0;
+        public int hangimasa = 0;
         public Form2()
         {
             InitializeComponent();
@@ -23,6 +23,7 @@ namespace Restoran
             pnlKkampanya1.Show();
             pnlKampanya2.Hide();
             pnlMasaSec.Hide();
+            
 
         }
 
@@ -83,18 +84,19 @@ namespace Restoran
 
         private void button5_Click(object sender, EventArgs e)
         {
-            // kampanya 1 button
+            pnlMasaSec.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            // kampanya 2 button
+            pnlMasaSec.Show();
         }
 
         private void pbMasa2_Click(object sender, EventArgs e)
         {
             Form3 formgecis = new Form3();
             hangimasa = 2;
+            formgecis.Masano_ = 2.ToString();
             formgecis.Show();
         }
 
@@ -102,6 +104,7 @@ namespace Restoran
         {
             Form3 formgecis = new Form3();
             hangimasa = 6;
+            formgecis.Masano_ = 6.ToString();
             formgecis.Show();
         }
 
@@ -109,6 +112,7 @@ namespace Restoran
         {
             Form3 formgecis = new Form3();
             hangimasa = 5;
+            formgecis.Masano_ = 5.ToString();
             formgecis.Show();
         }
 
@@ -116,6 +120,7 @@ namespace Restoran
         {
             Form3 formgecis = new Form3();
             hangimasa = 4;
+            formgecis.Masano_ = 4.ToString();
             formgecis.Show();
         }
 
@@ -123,6 +128,7 @@ namespace Restoran
         {
             Form3 formgecis = new Form3();
             hangimasa = 1;
+            formgecis.Masano_ = 1.ToString();
             formgecis.Show();
         }
 
@@ -130,7 +136,13 @@ namespace Restoran
         {
             Form3 formgecis = new Form3();
             hangimasa = 3;
+            formgecis.Masano_ = 3.ToString();
             formgecis.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

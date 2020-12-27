@@ -65,6 +65,7 @@ namespace Restoran
             this.pbMasa4 = new System.Windows.Forms.PictureBox();
             this.pbMasa6 = new System.Windows.Forms.PictureBox();
             this.pbMasa1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlKkampanya1.SuspendLayout();
@@ -78,11 +79,13 @@ namespace Restoran
             ((System.ComponentModel.ISupportInitialize)(this.pbMasa4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMasa6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMasa1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panelBtn);
             this.panel1.Controls.Add(this.button3);
@@ -460,6 +463,17 @@ namespace Restoran
             this.pbMasa1.TabStop = false;
             this.pbMasa1.Click += new System.EventHandler(this.pbMasa1_Click);
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(39, 37);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 5;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -490,6 +504,7 @@ namespace Restoran
             ((System.ComponentModel.ISupportInitialize)(this.pbMasa4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMasa6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMasa1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -530,5 +545,6 @@ namespace Restoran
         private System.Windows.Forms.PictureBox pbMasa4;
         private System.Windows.Forms.PictureBox pbMasa6;
         private System.Windows.Forms.PictureBox pbMasa1;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

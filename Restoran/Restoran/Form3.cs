@@ -12,6 +12,7 @@ namespace Restoran
 {
     public partial class Form3 : Form
     {
+        public string Masano_;
         int[] diziMenu = new int[12];
         public Form3()
         {
@@ -110,6 +111,7 @@ namespace Restoran
         {
             Form4 formgecis = new Form4();
             formgecis.dizisepet = diziMenu;
+            formgecis.MasaNO_ = Masano_;
             formgecis.Show();
             this.Hide();
         }
