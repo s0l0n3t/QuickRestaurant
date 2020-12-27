@@ -48,9 +48,9 @@ namespace Restoran
 
         private void button4_Click(object sender, EventArgs e)
         {
+            Form5 MenuForm = new Form5();
             Form3 Yeni_form3 = new Form3();
-            Yeni_form3.Show();
-            //formgecis.Show();
+            MenuForm.Show();
 
             panelBtn.Top = button4.Top;
             selectmenu = 3;
@@ -143,6 +143,12 @@ namespace Restoran
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+            MessageBox.Show("Furkan Tokgöz 193573016","Bilgi");
         }
     }
 }

@@ -133,7 +133,7 @@ namespace Restoran
                 SiparisOzet = fiyat.ToString() + " ₺";
                 listBox2.Items.Add(SiparisOzet);
             }
-            label1.Text = "Toplam : " + toplamfiyat.ToString();
+            label1.Text = "Toplam : " + toplamfiyat.ToString() + " ₺";
             label2.Text = MasaNO_;
         }
 

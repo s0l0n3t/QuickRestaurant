@@ -32,6 +32,7 @@ namespace Restoran
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panelBtn = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
@@ -65,8 +66,8 @@ namespace Restoran
             this.pbMasa4 = new System.Windows.Forms.PictureBox();
             this.pbMasa6 = new System.Windows.Forms.PictureBox();
             this.pbMasa1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlKkampanya1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -79,7 +80,6 @@ namespace Restoran
             ((System.ComponentModel.ISupportInitialize)(this.pbMasa4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMasa6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMasa1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -98,6 +98,17 @@ namespace Restoran
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 452);
             this.panel1.TabIndex = 0;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(39, 37);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 5;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // panel3
             // 
@@ -188,6 +199,7 @@ namespace Restoran
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel2
             // 
@@ -463,17 +475,6 @@ namespace Restoran
             this.pbMasa1.TabStop = false;
             this.pbMasa1.Click += new System.EventHandler(this.pbMasa1_Click);
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(39, 37);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 5;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -489,6 +490,7 @@ namespace Restoran
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlKkampanya1.ResumeLayout(false);
             this.pnlKkampanya1.PerformLayout();
@@ -504,7 +506,6 @@ namespace Restoran
             ((System.ComponentModel.ISupportInitialize)(this.pbMasa4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMasa6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMasa1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
