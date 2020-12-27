@@ -12,6 +12,7 @@ namespace Restoran
 {
     public partial class Form3 : Form
     {
+        int[] diziMenu = new int[12];
         public Form3()
         {
             InitializeComponent();
@@ -31,6 +32,86 @@ namespace Restoran
         private void pictureBox13_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            diziMenu[0]++;
+            MessageBox.Show("Siparişiniz Eklendi");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            diziMenu[1]++;
+            MessageBox.Show("Siparişiniz Eklendi");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            diziMenu[2]++;
+            MessageBox.Show("Siparişiniz Eklendi");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            diziMenu[3]++;
+            MessageBox.Show("Siparişiniz Eklendi");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            diziMenu[4]++;
+            MessageBox.Show("Siparişiniz Eklendi");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            diziMenu[5]++;
+            MessageBox.Show("Siparişiniz Eklendi");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            diziMenu[6]++;
+            MessageBox.Show("Siparişiniz Eklendi");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            diziMenu[7]++;
+            MessageBox.Show("Siparişiniz Eklendi");
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            diziMenu[8]++;
+            MessageBox.Show("Siparişiniz Eklendi");
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            diziMenu[9]++;
+            MessageBox.Show("Siparişiniz Eklendi");
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            diziMenu[10]++;
+            MessageBox.Show("Siparişiniz Eklendi");
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            diziMenu[11]++;
+            MessageBox.Show("Siparişiniz Eklendi");
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Form4 formgecis = new Form4();
+            formgecis.dizisepet = diziMenu;
+            formgecis.Show();
+            this.Hide();
         }
     }
 }

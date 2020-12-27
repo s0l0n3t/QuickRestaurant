@@ -15,7 +15,6 @@ namespace Restoran
         int selectmenu = 0;
         int kampanyacontrol = 2;
         int hangimasa = 0;
-        Form3 formgecis = new Form3();
         public Form2()
         {
             InitializeComponent();
@@ -48,7 +47,9 @@ namespace Restoran
 
         private void button4_Click(object sender, EventArgs e)
         {
-            formgecis.Show();
+            Form3 Yeni_form3 = new Form3();
+            Yeni_form3.Show();
+            //formgecis.Show();
 
             panelBtn.Top = button4.Top;
             selectmenu = 3;
@@ -92,36 +93,42 @@ namespace Restoran
 
         private void pbMasa2_Click(object sender, EventArgs e)
         {
+            Form3 formgecis = new Form3();
             hangimasa = 2;
             formgecis.Show();
         }
 
         private void pbMasa6_Click(object sender, EventArgs e)
         {
+            Form3 formgecis = new Form3();
             hangimasa = 6;
             formgecis.Show();
         }
 
         private void pbMasa5_Click(object sender, EventArgs e)
         {
+            Form3 formgecis = new Form3();
             hangimasa = 5;
             formgecis.Show();
         }
 
         private void pbMasa4_Click(object sender, EventArgs e)
         {
+            Form3 formgecis = new Form3();
             hangimasa = 4;
             formgecis.Show();
         }
 
         private void pbMasa1_Click(object sender, EventArgs e)
         {
+            Form3 formgecis = new Form3();
             hangimasa = 1;
             formgecis.Show();
         }
 
         private void pbMasa3_Click(object sender, EventArgs e)
         {
+            Form3 formgecis = new Form3();
             hangimasa = 3;
             formgecis.Show();
         }
