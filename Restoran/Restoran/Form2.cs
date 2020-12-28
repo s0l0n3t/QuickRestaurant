@@ -150,5 +150,10 @@ namespace Restoran
             
             MessageBox.Show("Furkan Tokgöz 193573016","Bilgi");
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
